@@ -1,5 +1,5 @@
 /*
-    Class Name : FX
+    Class Name : FZ
     Author : SFDC Sunday Team (01-28-2019)
     Purpose : Define basic characterstics of a Yamaha's FZ Bike to understand concepts of Inheritance
 */
