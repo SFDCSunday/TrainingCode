@@ -1,0 +1,12 @@
+//use of default constructor
+Bike b=new Bike();
+b.rideBike();
+
+//use of constructor of Yamaha Class
+Yamaha y=new Yamaha();
+y.rideBike();
+
+//FZ object instantiation
+FZ f=new FZ(5,150);
+f.rideBike();
+
