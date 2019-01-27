@@ -1,3 +1,8 @@
+/*
+    Class Name : Bike
+    Author : SFDC Sunday Team (01-28-2019)
+    Purpose : Define basic characterstics of a Bike to understand concepts of Inheritance
+*/
 public virtual class Bike{
 
     private String model{get; set;}
