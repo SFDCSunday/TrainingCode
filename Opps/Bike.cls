@@ -18,6 +18,7 @@ public virtual class Bike{
 
     public virtual void rideBike(){
         System.debug('I\'m riding '+model+' of '+companyName);
+        System.debug('This Rig is having '+gears+' gears and '+engineCapacity+'CC Engine');
     }
 
 }
