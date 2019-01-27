@@ -1,7 +1,7 @@
 /*
-    Class Name : FX
+    Class Name : Libaro
     Author : SFDC Sunday Team (01-28-2019)
-    Purpose : Define basic characterstics of a Yamaha's FZ Bike to understand concepts of Inheritance
+    Purpose : Define basic characterstics of a Yamaha's Libaro Bike to understand concepts of Inheritance
 */
 public class Libaro extends Yamaha{
 
@@ -13,7 +13,7 @@ public class Libaro extends Yamaha{
         color='Black';
     }
 
-    public LibaroFZ(Integer gears,Integer engineCapacity){
+    public Libaro(Integer gears,Integer engineCapacity){
         super(MODEL,gears,engineCapacity);
         color='Black';
     }
