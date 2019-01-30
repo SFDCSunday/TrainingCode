@@ -1,0 +1,16 @@
+List<TestingStatic> lst=new List<TestingStatic>();
+//using static method
+TestingStatic.printLine();
+
+for(Integer i=0;i<10;i++){
+    //initialization of TestingStatic class
+    TestingStatic temp=new TestingStatic((i+1));
+    lst.add(temp);
+}
+
+System.debug('----------------------');
+
+for(TestingStatic t:lst){
+    //calling non-static method
+    t.print();
+}
