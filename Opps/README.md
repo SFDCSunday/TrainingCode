@@ -1,5 +1,7 @@
-# OOPS
+# Object Oriented Fundamentals
+
 Code Samples related to OOPS
+Object Oriented simply means 'Based on Object'. Object is primery entity to discuss such topic. All fundamentals revoles around object.
 
 1. Bike.cls
 2. Yamaha.cls
