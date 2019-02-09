@@ -59,3 +59,9 @@ trigger LeadTrigger on Lead (Before Insert,Before Update,Before Delete,After Ins
     
 }
 </Pre>
+
+
+Other Context Variable
+1. Trigger.new and Trigger.NewMap - New Version of the record
+2. Trigger.Old and Trigger.OldMap - Old Version of the record
+
