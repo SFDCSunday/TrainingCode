@@ -39,7 +39,7 @@ Following are context variable
 
 
 eg.
-<code>
+<Pre>
 trigger LeadTrigger on Lead (Before Insert,Before Update,Before Delete,After Insert,After Update,After Delete,After UnDelete) {
 	boolean isBeforeInsert=Trigger.IsBefore && Trigger.IsInsert;
     boolean isBeforeUpdate=Trigger.IsBefore && Trigger.IsUpdate;
@@ -58,4 +58,4 @@ trigger LeadTrigger on Lead (Before Insert,Before Update,Before Delete,After Ins
     if(isAfterUnDelete){ System.debug('After UnDelete Event Occurs');}
     
 }
-</code>
+</Pre>
