@@ -1,0 +1,20 @@
+<apex:page controller="MyFirstController">
+    <apex:form>
+    	<apex:pageBlock title="My Custom Funtionality" mode="detail" >
+        	<apex:pageBlockButtons location="bottom">
+            	<apex:commandButton value="New" action="{!newAction}" rendered="{!NOT(isNew)}" />
+                <apex:commandButton value="Save" action="{!save}" rendered="{!isNew}"  />
+                <apex:commandButton value="Edit" action="{!edit}" rendered="{!NOT(isNew)}" />
+                <apex:commandButton value="Cancel" action="{!cancel}" />
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="2">
+            	<apex:inputField value="{!newAccount.Name}" />
+                <apex:PageBlockSectionItem />
+                <apex:inputField value="{!newAccount.AccountNumber}"/>
+                <apex:PageBlockSectionItem />
+                <apex:inputField value="{!newAccount.Type}"/>
+                <apex:inputField value="{!newAccount.Name}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
